@@ -138,8 +138,6 @@ public class StepDefinitions {
         homePage.getSearchBox().sendKeys(Keys.ENTER);
     }
 
-
-
     @Then("the search bar should display all the related results {string} .")
     public void theSearchBarShouldDisplayAllTheRelatedResults(String arg0) {
         String text = homePage.getProduct1().getText();
